@@ -25,3 +25,9 @@
 
 # Note
       There is no sort of License or copyright for this project.
+      
+ # Warning
+      If you have any "proxies" , please delete those files as it might ending up crashing up the "ditributions" of your mod.
+      
+ _what is a proxy?_
+            A proxy is basically a a piece of code that makes seperates executions of the server and client side. 
