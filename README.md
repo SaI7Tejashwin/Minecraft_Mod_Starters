@@ -6,7 +6,7 @@
 
 # Frameworks
       EclipseIDE (JDK-8)
-      along with Minecraft Forge 1.15
+      along with Minecraft Forge 1.15 and 1.14.4
       
       
 # References Used 
