@@ -8,6 +8,11 @@
       EclipseIDE (JDK-8)
       along with Minecraft Forge 1.15 and 1.14.4
       
+# Project Configuration
+     -> "gradlew genEclipseRuns" (./gradlew genEclipseRuns if you are on Mac/Linux) 
+      -> Open Eclipse, Import > Existing Gradle Project > Select Folder 
+         or run "gradlew eclipse" to generate the project.
+      -> Open Project > Run > Run Client(for basic modding stuff)
       
 # References Used 
 
