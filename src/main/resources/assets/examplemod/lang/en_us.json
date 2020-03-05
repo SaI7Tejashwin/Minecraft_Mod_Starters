@@ -1,0 +1,14 @@
+{
+
+	"item.examplemod.example_item": "Pokemon Item-1",
+	
+	"block.examplemod.example_block": "Some Random Block",
+	
+	"block.examplemod.example_ore": "Sample ores",
+	
+	"block.examplemod.example_ore_nether": "Nether Examples",
+	
+	"itemGroup.mods": "Pokemon Item Group",
+	
+	"entity.examplemod.tutorial_entity" : "Da fookin cows"
+}
