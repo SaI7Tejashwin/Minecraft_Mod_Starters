@@ -14,7 +14,7 @@
       https://documentation-tterrag.readthedocs.io/en/latest/         //Forge Documentation 
  
 # Warning 
-      During Modding-Phase, please restrain yourself to modifying only the project_folder.
+      During Modding-Phase, please restrain yourself to not modifying only the project_folder.
 
       project_folder consists of:
 
