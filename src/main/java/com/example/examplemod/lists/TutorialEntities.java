@@ -16,7 +16,7 @@ public class TutorialEntities
 {
 	
 	public static EntityType<?> TUTORIAL_ENTITY = EntityType.Builder.create(TutorialEntity::new, EntityClassification.CREATURE).build(ExampleModRegistries.MODID + "tutorial_entity").setRegistryName(ExampleModRegistries.location("tutorial_entity"));
-	//the above line of code might be an extremely long code of function but this initializes the entity
+	//the above line of code might be an extremely long line of code of function but this initializes the entity
 	public static void registerEntitySpawnEggs(final RegistryEvent.Register<Item> event)
 	{
 		event.getRegistry().registerAll
@@ -27,7 +27,7 @@ public class TutorialEntities
 	
 	public static void registerEntityWorldSpawns()
 	{
-		registerEntityWorldSpawn(TUTORIAL_ENTITY, Biomes.SUNFLOWER_PLAINS, Biomes.BEACH, Biomes.JUNGLE);
+		registerEntityWorldSpawn(TUTORIAL_ENTITY, Biomes.DESERT, Biomes.BEACH, Biomes.JUNGLE);
 		
 		// referenced from registerEntityWorldSpawn(....)
 	}

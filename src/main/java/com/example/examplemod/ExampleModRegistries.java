@@ -2,6 +2,7 @@ package com.example.examplemod;
 
 import org.apache.logging.log4j.Logger;
 
+import com.example.examplemod.items.itemPokeball;
 import com.example.examplemod.lists.BlockList;
 import com.example.examplemod.lists.ItemList;
 import com.example.examplemod.lists.TutorialEntities;
@@ -31,7 +32,7 @@ public class ExampleModRegistries {
         @SubscribeEvent
          public static void registerItems(final RegistryEvent.Register<Item> event) {
         	event.getRegistry().registerAll(
-        	ItemList.example_item = new Item(new Item.Properties().group(EXAMPLE)).setRegistryName(location("example_item")),
+        	ItemList.example_item = new itemPokeball(new Item.Properties().group(EXAMPLE)).setRegistryName(location("example_item")),
         	
         		//add more of your items over here.	
         	ItemList.example_block = new BlockItem(BlockList.example_block, new Item.Properties().group(EXAMPLE)).setRegistryName(BlockList.example_block.getRegistryName()),
@@ -51,9 +52,9 @@ public class ExampleModRegistries {
        	event.getRegistry().registerAll(
        			BlockList.example_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).lightValue(9).sound(SoundType.GLASS)).setRegistryName(location("example_block")),
        
-       			BlockList.example_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f,3.0f).lightValue(9).sound(SoundType.GLASS)).setRegistryName(location("example_ore")),
+       			BlockList.example_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f,3.0f).lightValue(11).sound(SoundType.METAL)).setRegistryName(location("example_ore")),
 
-       			BlockList.example_ore_nether = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f,3.0f).lightValue(4).sound(SoundType.METAL)).setRegistryName(location("example_ore_nether"))
+       			BlockList.example_ore_nether = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f,3.0f).lightValue(4).sound(SoundType.SNOW)).setRegistryName(location("example_ore_nether"))
 
 
        			//add more of your items over here.	

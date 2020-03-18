@@ -36,8 +36,8 @@ public class TutorialEntity  extends CreatureEntity
 		}
 		
 		//There are plenty of other functions that we can use like canBePushed() or canBeRidden() functions
-		//w.r.t the mod given this is the "package(entities)" where you might add your mobs or pokemons.
-		//all the functions are given and can be imported from 
+		//w.r.t the mod given this is the "package(entities)" where you might add your mobs.
+		//all the functions are given and can be imported from net.minecraft
 		//this is a very basic entity with only few of its goals and attributes
 		
 		
